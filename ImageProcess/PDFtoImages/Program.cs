@@ -15,10 +15,12 @@ namespace PDFtoImages
 {
     internal class Program
     {
-        private static string OutputPath = @"D:\Channel\Contant\Training\Videos\ImageProcess\Output\";
+        private static string OutputPath = @"D:\Channel\Code Sell\Working\Git\ImageProcessing\ImageProcess\Output\";
+        private static string InputPath = @"D:\home\eBrochure.pdf";
+
         static void Main(string[] args)
         {
-            ImageConverter(@"D:\home\eBrochure.pdf");
+            ImageConverter(InputPath);
         }
 
         private static void ImageConverter(string inputFilePath)
