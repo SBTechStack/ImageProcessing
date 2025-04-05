@@ -15,7 +15,7 @@ namespace PDFtoImages
 {
     internal class Program
     {
-        private static string OutputPath = @"D:\Channel\Code Sell\Working\Git\ImageProcessing\ImageProcess\Output\";
+        private static string OutputPath = @"D:\Channel\Code Sell\Working\Output";
         private static string InputPath = @"D:\home\eBrochure.pdf";
 
         static void Main(string[] args)
